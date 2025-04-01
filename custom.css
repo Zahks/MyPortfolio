@@ -1,0 +1,91 @@
+
+<link rel="stylesheet" href="projet1.css">
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+h2 {
+    color: #0073e6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.step h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0073e6; /* Bleu pour bien ressortir */
+    margin-bottom: 10px;
+
+.step {
+    font-family: "Poppins", sans-serif;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.step:hover {
+    transform: scale(1.05);
+    background: #e6f2ff;
+}
+
+.project-results ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.project-results li {
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.image-grid img {
+    width: 30%;
+    max-width: 300px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    margin-top: 20px;
+}
+
