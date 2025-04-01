@@ -243,6 +243,13 @@ window.onclick = function(event) {
   });
 };
 
+// Empêcher la propagation du clic de bouton
+document.querySelectorAll('.btn').forEach(button => {
+  button.addEventListener('click', function(event) {
+    event.stopPropagation(); // Cela arrête la propagation de l'événement vers la balise <a>
+  });
+});
+
 
 document.addEventListener("DOMContentLoaded", function () {
   const otherExperienceContent = document.getElementById("other-experience-content");
